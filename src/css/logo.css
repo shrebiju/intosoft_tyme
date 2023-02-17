@@ -64,11 +64,154 @@ header button:hover {
   margin: 10px;
   color: #333;
 }
-.banner {
+img.bannerimage {
   width: 100%;
-  height: 500px;
-  background-image: url('./images/banner.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  
 }
+/* img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+} */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.main-content-header {
+  width: 100%;
+  height: 90%;
+  text-align: center;
+}
+
+/* //Register page */
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-header {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.form-header h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  }
+  
+  .form-header p {
+  font-size: 18px;
+  color: #999;
+  margin: 0;
+  }
+  
+  .form-inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  }
+  
+  .form-inputs label {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+  }
+  
+  .form-inputs input[type="text"],
+  .form-inputs input[type="email"],
+  .form-inputs input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  outline: none;
+  margin-bottom: 20px;
+  }
+  
+  .form-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  }
+  
+  .form-footer button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  }
+  
+  .form-footer p {
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+  }
+  
+  .form-footer a {
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  }
+  
+  .image-section {
+  width: 50%;
+  /* background-image: url('./images/banner.jpg'); */
+  /* background-image: url(banner.jpg); */
+  background-size: cover;
+  background-position: center;
+  }
+  .yme-image {
+    height: 10px !important;
+    margin-top: -24px;
+    /* margin-bottom: -43px; */
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+
+  
+  
+  
+  
